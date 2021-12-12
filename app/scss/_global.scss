@@ -1,0 +1,31 @@
+body{
+
+} 
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    @extend %roboto-500;
+    cursor: pointer;
+    
+}
+.link{
+    padding: 18px 53px 16px 24px;
+    background: linear-gradient(99.41deg, #FFB018 -12.63%, #FF2900 84.78%);
+    border: 2.00351px solid #FFFFFF;
+    border-radius: 100.175px;
+    position: relative;
+    &::after{
+        content: "";
+        background-image: url('../images/icons/arrow-right.svg');
+        width: 28px;
+        height: 22px;
+        position: absolute;
+        right: 19px;
+        top: 16px;
+    }   
+}
