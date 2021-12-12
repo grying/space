@@ -1,0 +1,386 @@
+@media(max-width: 1180px){
+    .visa{
+        &__img{
+            width: 50%;
+        }
+        &__title{
+            span{
+                display: block;
+            }
+        }
+    }
+    .subscribe{
+        width: 900px;
+        border-radius: 40px;
+    }
+}
+@media(max-width: 970px){
+    .header{
+        background-position: right
+    }
+    .planet{
+        &__text{
+            font-size: 24px;
+            line-height: 30px;
+        }
+        &__text-saturn{
+            font-size: 30px;
+            line-height: 37px;
+        }
+    }
+    .visa{
+        &__title{
+            font-size: 64px;
+            line-height: 64px;
+        }
+    }
+    .subscribe{
+        width: 900px;
+        margin-bottom: 113px !important;
+        border-radius: 40px;
+    }
+    .footer__container{
+        height: 900px;
+        
+    }
+    .footer-top{
+        flex-wrap: wrap;
+        .logo{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+    .subscribe{
+        width: 750px;
+        border-radius: 40px;
+        &__content{
+            height: 343px;
+        }
+    }
+    .footer{
+        &__container{
+            height: 715px;
+        }
+    }
+    
+    
+}
+@media(max-width: 860px){
+    .header-top{
+        padding: 109px 0;
+    }
+    .planet{
+        &__text{
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__text-saturn{
+            font-size: 25px;
+            line-height: 37px;
+        }
+
+    }
+}
+@media(max-width: 790px){
+    .subscribe{
+        width: 610px;
+        border-radius: 40px;
+        &__content{
+            height: 295px;
+        }
+        &__title{
+            font-size: 40px;
+            line-height: 40px;
+            width: auto;
+
+        }
+        &__form{
+            margin-top: 20px;
+        }
+        &__input{
+            width: 400px;
+            padding-left: 0;
+        }
+        &__btn{
+            width: 113px;
+            margin-left: -115px;
+        }
+    }
+    .footer{
+        &__container{
+            height: 690px;
+        }
+    }
+}
+@media(max-width: 750px){
+    .footer-top{
+        &__items-social{
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            
+        }
+    }
+    .menu{
+        &__list{
+            transition: all .3s;
+            transform: translateY(-300%);
+        }
+        &__item{
+            // margin: 15px 0 !important;
+            border-bottom: 1px solid #fff;
+            border-top: 1px solid #fff;
+            background: linear-gradient(180deg, #4A188C -66.69%, #3E0174 -48.93%, #0C003D 66.62%);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            &+.menu__item{
+                margin: 0;
+            }
+            
+        }
+        &__link{
+            
+            margin: 15px 0;
+        }
+        &__list--active{
+             transition: all .3s;
+            right: 0;
+            left: 0;
+            top: 90px;
+            transform: translateY(0%);
+            position: absolute;
+        }
+    }
+    .header-top{
+        &__title{
+            font-size: 82px;
+            line-height: 82px;
+        }
+    }
+    .planet{
+        &__items{
+          display: block;  
+        }
+        &__item{
+            height: auto;
+            width: 100%;
+        }
+        &__text-saturn{
+            padding-bottom: 25px;
+            font-size: 40px;
+            line-height: 47px;
+        }
+        &__text{
+            padding-bottom: 25px;
+            font-size: 34px;
+            line-height: 40px;
+        }
+    }
+    .visa{
+        &__img{
+            width: 40%;
+        }
+        &__title{
+            font-size: 35px;
+            line-height: 35px;
+            span{
+                display: block;
+            }
+        }
+    }
+    .subscribe{
+        width: 483px;
+        border-radius: 40px;
+        &__content{
+            height: 200px;
+        }
+        &__title{
+            font-size: 30px;
+            line-height: 30px;
+            width: auto;
+
+        }
+        &__form{
+            margin-top: 20px;
+        }
+        &__input{
+            width: 400px;
+            padding-left: 0;
+        }
+        &__btn{
+            width: 113px;
+            margin-left: -115px;
+        }
+    }
+    .footer{
+        &__container{
+            height: 793px;
+        }
+    }
+    .info{
+        padding-bottom: 108px;
+    }
+}
+
+@media(max-width: 610px){
+    .header-top{
+        &__title{
+            font-size: 70px;
+            line-height: 74px;
+        }
+    }
+    .visa{
+        &__img{
+            display: none;
+        }
+        &__title{
+            width: 100%;
+            font-size: 55px;
+            line-height: 55px;
+            span{
+                display: block;
+            }
+        }
+    }
+    .link{
+        width: 100%;
+    }
+    .travel{
+        background-position: center;
+        &__content{
+            width: 100%;
+        }
+        &__text{
+            width: 100%;
+        }
+    }
+    .footer-bottom{
+        flex-wrap: wrap;
+        justify-content: center !important;
+        flex-direction: column;
+        &__text{ 
+            margin-bottom: 25px;
+        }
+    }
+}
+@media(max-width: 520px){
+        .header-top{
+            padding: 60px 0;
+        &__title{
+            font-size: 60px;
+            line-height: 64px;
+        }
+    }
+     .subscribe{
+        width: 400px;
+        border-radius: 40px;
+        &__content{
+            height: 283px;
+        }
+        &__title{
+            font-size: 30px;
+            line-height: 30px;
+            width: 320px;
+
+
+        }
+        &__form{
+            margin-top: 20px;
+            flex-wrap: wrap;
+            width: 100%;
+            padding:  0 15px;
+        }
+        &__input{
+            width: 100%;
+            
+            padding-left: 0;
+   
+        }
+        &__btn{
+            display: block;
+            border-radius:22px ;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 22px;
+            font-size: 16px;
+        }
+    }
+    .footer{
+        &__container{
+            height: 828px;
+        }
+    }
+    .info{
+        padding-bottom: 155px;
+    }
+}
+@media(max-width: 480px){
+    .subscribe{
+        width: 270px;
+        &__title {
+            width: auto;
+        }
+    }
+    header{
+        background: #0C003D;
+        background-image: url('../images/header-minbg.jpg') !important;
+
+    }
+    .header-top{
+        
+        
+        &__link{
+            width: 100%;
+        }
+        &__title{
+            span{
+                display: block;
+            }
+            font-size: 72px;
+            line-height: 76px;
+        }
+    }
+    .planet{
+        &__text{
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__text-saturn{
+            font-size: 25px;
+            line-height: 37px;
+        }
+    }
+}
+@media(max-width: 440px){
+    .footer{
+        &__container{
+            height: 1080px;
+        }
+    }
+    .footer-top{
+        &__items-company{
+            margin-top: 30px;
+            display: block;
+            width: 100%;
+        }
+    }
+}
+@media(max-width: 350px){
+    .header-top{
+        &__title{
+            font-size: 40px;
+            line-height: 41px;
+        }
+    }
+    .visa{
+
+        &__title{
+            width: 100%;
+            font-size: 35px;
+            line-height: 35px;
+        }
+    }
+}
+@media(max-width: 860px){}
